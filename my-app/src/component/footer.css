@@ -1,0 +1,60 @@
+.description {
+  margin-top: 3rem;
+}
+
+.content {
+  background-color: #8bdac0;
+}
+
+.heading {
+  position: relative;
+  top: 2rem;
+}
+
+.footer-container {
+  text-align: left;
+  border-radius: 10rem;
+}
+
+.footer-icons {
+  margin-right: 2rem;
+  color: black;
+  position: relative;
+  top: 1rem;
+}
+
+.icon-group {
+  background-color: #8bdac0;
+}
+.icons {
+  margin-top: 2em;
+}
+
+.text {
+  font-size: 15px;
+  position: relative;
+  top: -0.7rem;
+  margin-left: 2rem;
+}
+
+@media (max-width: 768px) {
+  .footer-container {
+    text-align: center;
+  }
+
+  .footer-icons {
+    margin-right: 1rem;
+  }
+
+  .icon-group {
+    padding: 0.5rem;
+  }
+
+  .location-icon {
+    margin-top: 0.5em;
+  }
+
+  .text {
+    font-size: 14px;
+  }
+}
